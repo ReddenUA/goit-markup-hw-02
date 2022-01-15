@@ -70,6 +70,7 @@ body {
     font-size: 44px;
     line-height: 60px;
     color: #ffffff;
+    text-transform: uppercase;
   }
   .hero-bth {
     font-family: "Roboto", sans-serif;
@@ -93,6 +94,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #212121;
+    text-transform: uppercase;
   }
   .description {
     font-family: "Roboto", sans-serif;
@@ -135,6 +137,10 @@ body {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
+  }
+
+  .background{
+    list-style: none;
   }
   /*--footer--*/
   .footer {
@@ -190,6 +196,9 @@ body {
     color: #2196f3;
   }
   /*---Portfolio---*/
+  .button-nav{
+    display: none;
+  }
   .bth-all {
     font-family: "Roboto", sans-serif;
     font-style: normal;
